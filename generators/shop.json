@@ -1,0 +1,1454 @@
+{
+	"types": [
+		{
+			"value": "blacksmith",
+			"name": "Blacksmith",
+			"items": [1, 2, 4]
+		},
+		{
+			"value": "potions",
+			"name": "Potion Shop",
+			"items": [3, 4]
+		},
+        {
+            "value": "general",
+            "name": "General Store",
+            "items": [3, 4]
+        },
+        {
+            "value": "curiosity",
+            "name": "Curiosity Shop",
+            "items": [3, 4]
+        },
+        {
+            "value": "armor",
+            "name": "Armor Shop",
+            "items": [3, 4]
+        },
+        {
+            "value": "weapons",
+            "name": "Weapons Shop",
+            "items": [3, 4]
+        }
+		],
+		"items": {
+			"1":{
+				"name":"Padded leather",
+				"type":"armor",
+				"price":"5",
+				"ac":"11 + Dex modifier",
+				"weight":"8 lb.",
+				"kind":"light",
+				"table": 0
+			},
+			"2":{
+				"name":"Leather",
+				"type":"armor",
+				"price":"10",
+				"ac":"11 + Dex modifier",
+				"weight":"10 lb.",
+				"kind":"light",
+				"table": 0
+			},
+			"3":{
+				"name":"Studded leather",
+				"type":"armor",
+				"price":"45",
+				"ac":"12 + Dex modifier",
+				"weight":"13 lb.",
+				"kind":"light",
+				"table": 1
+			},
+			"4":{
+				"name":"Hide",
+				"type":"armor",
+				"price":"10",
+				"ac":"12 + Dex modifier (max 2)",
+				"weight":"12 lb.",
+				"kind":"medium",
+				"table": 0
+			},
+			"5":{
+				"name":"Chain shirt",
+				"type":"armor",
+				"price":"50",
+				"ac":"13 + Dex modifier (max 2)",
+				"weight":"20 lb.",
+				"kind":"medium",
+				"table": 0
+			},
+			"6":{
+				"name":"Scale mail",
+				"type":"armor",
+				"price":"50",
+				"ac":"14 + Dex modifier (max 2)",
+				"weight":"45 lb.",
+				"kind":"medium",
+				"table": 0
+			},
+			"7":{
+				"name":"Breastplate",
+				"type":"armor",
+				"price":"400",
+				"ac":"14 + Dex modifier (max 2)",
+				"weight":"20 lb.",
+				"kind":"medium",
+				"table": 1
+			},
+			"8":{
+				"name":"Half plate",
+				"type":"armor",
+				"price":"750",
+				"ac":"15 + Dex modifier (max 2)",
+				"weight":"40 lb.",
+				"kind":"medium",
+				"table": 1
+			},
+			"9":{
+				"name":"Ring mail",
+				"type":"armor",
+				"price":"30",
+				"ac":"14",
+				"weight":"40 lb.",
+				"kind":"heavy",
+				"table": 0
+			},
+			"10":{
+				"name":"Chain mail",
+				"type":"armor",
+				"price":"75",
+				"ac":"16",
+				"weight":"55 lb.",
+				"kind":"heavy",
+				"table": 0
+			},
+			"11":{
+				"name":"Splint",
+				"type":"armor",
+				"price":"200",
+				"ac":"17",
+				"weight":"60 lb.",
+				"kind":"heavy",
+				"table": 1
+			},
+			"12":{
+				"name":"Plate",
+				"type":"armor",
+				"price":"1,500",
+				"ac":"18",
+				"weight":"65 lb.",
+				"kind":"heavy",
+				"table": 2
+			},
+			"13":{
+				"name":"Club",
+				"type":"weapon",
+				"price":0.1,
+				"damage":"1d4 bludgeoning",
+				"properties":"Light",
+				"kind":"simplemelee",
+				"table": 0
+			},
+			"14":{
+				"name":"Dagger",
+				"type":"weapon",
+				"price":"2",
+				"damage":"1d4 piercing",
+				"properties":"Finesse, light, thrown (range 20/60)",
+				"kind":"simplemelee",
+				"table": 0
+			},
+			"15":{
+				"name":"Greatclub",
+				"type":"weapon",
+				"price":0.2,
+				"damage":"1d8 bludgeoning",
+				"properties":"Two-handed",
+				"kind":"simplemelee",
+				"table": 1
+			},
+			"16":{
+				"name":"Handaxe",
+				"type":"weapon",
+				"price":"5",
+				"damage":"1d6 slashing",
+				"properties":"Light, thrown (range 20/60)",
+				"kind":"simplemelee",
+				"table": 0
+			},
+			"17":{
+				"name":"Javelin",
+				"type":"weapon",
+				"price":0.5,
+				"damage":"1d6 piercing",
+				"properties":"Thrown (range 30/120)",
+				"kind":"simplemelee",
+				"table": 1
+			},
+			"18":{
+				"name":"Light hammer",
+				"type":"weapon",
+				"price":"2",
+				"damage":"1d4 bludgeoning",
+				"properties":"Light, thrown (range 20/60)",
+				"kind":"simplemelee",
+				"table": 0
+			},
+			"19":{
+				"name":"Mace",
+				"type":"weapon",
+				"price":"5",
+				"damage":"1d6 bludgeoning",
+				"properties":"—",
+				"kind":"simplemelee",
+				"table": 0
+			},
+			"20":{
+				"name":"Quarterstaff",
+				"type":"weapon",
+				"price":0.2,
+				"damage":"1d6 bludgeoning",
+				"properties":"Versatile (1d8)",
+				"kind":"simplemelee",
+				"table": 1
+			},
+			"21":{
+				"name":"Sickle",
+				"type":"weapon",
+				"price":"1",
+				"damage":"1d4 slashing",
+				"properties":"Light",
+				"kind":"simplemelee",
+				"table": 1
+			},
+			"22":{
+				"name":"Spear",
+				"type":"weapon",
+				"price":"1",
+				"damage":"1d6 piercing",
+				"properties":"Thrown (range 20/60), versatile (1d8)",
+				"kind":"simplemelee",
+				"table": 0
+			},
+			"23":{
+				"name":"Crossbow, light",
+				"type":"weapon",
+				"price":"25",
+				"damage":"1d8 piercing",
+				"properties":"Ammunition (range 80/320), loading, two-handed",
+				"kind":"simpleranged",
+				"table": 1
+			},
+			"24":{
+				"name":"Dart",
+				"type":"weapon",
+				"price":0.05,
+				"damage":"1d4 piercing",
+				"properties":"Finesse, thrown (range 20/60)",
+				"kind":"simpleranged",
+				"table": 0
+			},
+			"25":{
+				"name":"Shortbow",
+				"type":"weapon",
+				"price":"25",
+				"damage":"1d6 piercing",
+				"properties":"Ammunition (range 80/320), two-handed",
+				"kind":"simpleranged",
+				"table": 0
+			},
+			"26":{
+				"name":"Sling",
+				"type":"weapon",
+				"price":0.1,
+				"damage":"1d4 bludgeoning",
+				"properties":"Ammunition (range 30/120)",
+				"kind":"simpleranged",
+				"table": 0
+			},
+			"27":{
+				"name":"Battleaxe",
+				"type":"weapon",
+				"price":"10",
+				"damage":"1d8 slashing",
+				"properties":"Versatile (1d10)",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"28":{
+				"name":"Flail",
+				"type":"weapon",
+				"price":"10",
+				"damage":"1d8 bludgeoning",
+				"properties":"—",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"29":{
+				"name":"Glaive",
+				"type":"weapon",
+				"price":"20",
+				"damage":"1d10 slashing",
+				"properties":"Heavy, reach, two-handed",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"30":{
+				"name":"Greataxe",
+				"type":"weapon",
+				"price":"30",
+				"damage":"1d12 slashing",
+				"properties":"Heavy, two-handed",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"31":{
+				"name":"Greatsword",
+				"type":"weapon",
+				"price":"50",
+				"damage":"2d6 slashing",
+				"properties":"Heavy, two-handed",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"32":{
+				"name":"Halberd",
+				"type":"weapon",
+				"price":"20",
+				"damage":"1d10 slashing",
+				"properties":"Heavy, reach, two-handed",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"33":{
+				"name":"Lance",
+				"type":"weapon",
+				"price":"10",
+				"damage":"1d12 piercing",
+				"properties":"Reach, special",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"34":{
+				"name":"Longsword",
+				"type":"weapon",
+				"price":"15",
+				"damage":"1d8 slashing",
+				"properties":"Versatile (1d10)",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"35":{
+				"name":"Maul",
+				"type":"weapon",
+				"price":"10",
+				"damage":"2d6 bludgeoning",
+				"properties":"Heavy, two-handed",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"36":{
+				"name":"Morningstar",
+				"type":"weapon",
+				"price":"15",
+				"damage":"1d8 piercing",
+				"properties":"—",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"37":{
+				"name":"Pike",
+				"type":"weapon",
+				"price":"5",
+				"damage":"1d10 piercing",
+				"properties":"Heavy, reach, two-handed",
+				"kind":"martialmelee",
+				"table": 0
+			},
+			"38":{
+				"name":"Rapier",
+				"type":"weapon",
+				"price":"25",
+				"damage":"1d8 piercing",
+				"properties":"Finesse",
+				"kind":"martialmelee",
+				"table": 0
+			},
+			"39":{
+				"name":"Scimitar",
+				"type":"weapon",
+				"price":"25",
+				"damage":"1d6 slashing",
+				"properties":"Finesse, light",
+				"kind":"martialmelee",
+				"table": 0
+			},
+			"40":{
+				"name":"Shortsword",
+				"type":"weapon",
+				"price":"10",
+				"damage":"1d6 piercing",
+				"properties":"Finesse, light",
+				"kind":"martialmelee",
+				"table": 0
+			},
+			"41":{
+				"name":"Trident",
+				"type":"weapon",
+				"price":"5",
+				"damage":"1d6 piercing",
+				"properties":"Thrown (range 20/60), versatile (1d8)",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"42":{
+				"name":"War pick",
+				"type":"weapon",
+				"price":"5",
+				"damage":"1d8 piercing",
+				"properties":"—",
+				"kind":"martialmelee",
+				"table": 2
+			},
+			"43":{
+				"name":"Warhammer",
+				"type":"weapon",
+				"price":"15",
+				"damage":"1d8 bludgeoning",
+				"properties":"Versatile (1d10)",
+				"kind":"martialmelee",
+				"table": 2
+			},
+			"44":{
+				"name":"Whip",
+				"type":"weapon",
+				"price":"2",
+				"damage":"1d4 slashing",
+				"properties":"Finesse, reach",
+				"kind":"martialmelee",
+				"table": 1
+			},
+			"45":{
+				"name":"Blowgun",
+				"type":"weapon",
+				"price":"10",
+				"damage":"1 piercing",
+				"properties":"Ammunition (range 25/100), loading",
+				"kind":"martialranged",
+				"table": 0
+			},
+			"46":{
+				"name":"Crossbow, hand",
+				"type":"weapon",
+				"price":"75",
+				"damage":"1d6 piercing",
+				"properties":"Ammunition (range 30/120), light, loading",
+				"kind":"martialranged",
+				"table": 0
+			},
+			"47":{
+				"name":"Crossbow, heavy",
+				"type":"weapon",
+				"price":"50",
+				"damage":"1d10 piercing",
+				"properties":"Ammunition (range 100/400), heavy, loading, two-handed",
+				"kind":"martialranged",
+				"table": 1
+			},
+			"48":{
+				"name":"Longbow",
+				"type":"weapon",
+				"price":"50",
+				"damage":"1d8 piercing",
+				"properties":"Ammunition (range 150/600), heavy, two-handed",
+				"kind":"martialranged",
+				"table": 0
+			},
+			"49":{
+				"name":"Net",
+				"type":"weapon",
+				"price":"1",
+				"damage":"—",
+				"properties":"Special, thrown (range 5/15)",
+				"kind":"martialranged",
+				"table": 0
+			},
+			"50":{
+				"name":"Abacus",
+				"type":"equipment",
+				"price":"2",
+				"weight":"2 lb.",
+				"table": 1
+			},
+			"51":{
+				"name":"Acid (vial)",
+				"type":"equipment",
+				"price":"25",
+				"weight":"1 lb.",
+				"description":"As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.",
+				"table": 1
+			},
+			"52":{
+				"name":"Alchemist’s fire (flask)",
+				"type":"equipment",
+				"price":"50",
+				"weight":"1 lb.",
+				"description":"This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist&#39;s fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+				"table": 2
+			},
+			"53":{
+				"name":"Arrows (20)",
+				"type":"equipment",
+				"price":"1",
+				"weight":"1 lb.",
+				"table": 0
+			},
+			"54":{
+				"name":"Blowgun needles (50)",
+				"type":"equipment",
+				"price":"1",
+				"weight":"1 lb.",
+				"table": 0
+			},
+			"55":{
+				"name":"Crossbow bolts (20)",
+				"type":"equipment",
+				"price":"1",
+				"weight":"1½ lb.",
+				"table": 0
+			},
+			"56":{
+				"name":"Sling bullets (20)",
+				"type":"equipment",
+				"price":0.04,
+				"weight":"1½ lb.",
+				"table": 0
+			},
+			"57":{
+				"name":"Antitoxin (vial)",
+				"type":"equipment",
+				"price":"50",
+				"weight":"—",
+				"description":"A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.",
+				"table": 1
+			},
+			"58":{
+				"name":"Crystal",
+				"type":"equipment",
+				"price":"10",
+				"weight":"1 lb.",
+				"table": 0
+			},
+			"59":{
+				"name":"Orb",
+				"type":"equipment",
+				"price":"20",
+				"weight":"3 lb.",
+				"table": 1
+			},
+			"60":{
+				"name":"Rod",
+				"type":"equipment",
+				"price":"10",
+				"weight":"2 lb.",
+				"table": 1
+			},
+			"61":{
+				"name":"Staff",
+				"type":"equipment",
+				"price":"5",
+				"weight":"4 lb.",
+				"table": 0
+			},
+			"62":{
+				"name":"Wand",
+				"type":"equipment",
+				"price":"10",
+				"weight":"1 lb.",
+				"table": 0
+			},
+			"63":{
+				"name":"Backpack",
+				"type":"equipment",
+				"price":"2",
+				"weight":"5 lb.",
+				"table": 0
+			},
+			"64":{
+				"name":"Ball bearings (bag of 1,000)",
+				"type":"equipment",
+				"price":"1",
+				"weight":"2 lb.",
+				"description":"As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the save.",
+				"table": 1
+			},
+			"65":{
+				"name":"Barrel",
+				"type":"equipment",
+				"price":"2",
+				"weight":"70 lb.",
+				"table": 0
+			},
+			"66":{
+				"name":"Basket",
+				"type":"equipment",
+				"price":0.4,
+				"weight":"2 lb.",
+				"table": 0
+			},
+			"67":{
+				"name":"Bedroll",
+				"type":"equipment",
+				"price":"1",
+				"weight":"7 lb.",
+				"table": 0
+			},
+			"68":{
+				"name":"Bell",
+				"type":"equipment",
+				"price":"1",
+				"weight":"—",
+				"table": 1
+			},
+			"69":{
+				"name":"Blanket",
+				"type":"equipment",
+				"price":0.5,
+				"weight":"3 lb.",
+				"table": 0
+			},
+			"70":{
+				"name":"Block and tackle",
+				"type":"equipment",
+				"price":"1",
+				"weight":"5 lb.",
+				"description":"A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.",
+				"table": 1
+			},
+			"71":{
+				"name":"Book",
+				"type":"equipment",
+				"price":"25",
+				"weight":"5 lb.",
+				"description":"A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section).",
+				"table": 0
+			},
+			"72":{
+				"name":"Bottle, glass",
+				"type":"equipment",
+				"price":"2",
+				"weight":"2 lb.",
+				"table": 0
+			},
+			"73":{
+				"name":"Bucket",
+				"type":"equipment",
+				"price":0.05,
+				"weight":"2 lb.",
+				"table": 0
+			},
+			"74":{
+				"name":"Caltrops (bag of 20)",
+				"type":"equipment",
+				"price":"1",
+				"weight":"2 lb.",
+				"description":"As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature’s walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn’t need to make the save.",
+				"table": 2
+			},
+			"75":{
+				"name":"Candle",
+				"type":"equipment",
+				"price":0.01,
+				"weight":"—",
+				"description":"For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.",
+				"table": 0
+			},
+			"76":{
+				"name":"Case, crossbow bolt",
+				"type":"equipment",
+				"price":"1",
+				"weight":"1 lb.",
+				"description":"This wooden case can hold up to twenty crossbow bolts.",
+				"table": 1
+			},
+			"77":{
+				"name":"Case, map or scroll",
+				"type":"equipment",
+				"price":"1",
+				"weight":"1 lb.",
+				"description":"This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.",
+				"table": 2
+			},
+			"78":{
+				"name":"Chain (10 feet)",
+				"type":"equipment",
+				"price":"5",
+				"weight":"10 lb.",
+				"description":"A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.",
+				"table": 1
+			},
+			"79":{
+				"name":"Chalk (1 piece)",
+				"type":"equipment",
+				"price":0.01,
+				"weight":"—",
+				"table": 1
+			},
+			"80":{
+				"name":"Chest",
+				"type":"equipment",
+				"price":"5",
+				"weight":"25 lb.",
+				"table": 1
+			},
+			"81":{
+				"name":"Climber’s kit",
+				"type":"equipment",
+				"price":"25",
+				"weight":"12 lb.",
+				"description":"A climber’s kit includes special pitons, boot tips, gloves, and a harness. You can use the climber’s kit as an action to anchor yourself; when you do, you can’t fall more than 25 feet from the point where you anchored yourself, and you can’t climb more than 25 feet away from that point without undoing the anchor.",
+				"table": 2
+			},
+			"82":{
+				"name":"Clothes, common",
+				"type":"equipment",
+				"price":0.5,
+				"weight":"3 lb.",
+				"table": 0
+			},
+			"83":{
+				"name":"Clothes, costume",
+				"type":"equipment",
+				"price":"5",
+				"weight":"4 lb.",
+				"table": 1
+			},
+			"84":{
+				"name":"Clothes, fine",
+				"type":"equipment",
+				"price":"15",
+				"weight":"6 lb.",
+				"table": 2
+			},
+			"85":{
+				"name":"Clothes, traveler’s",
+				"type":"equipment",
+				"price":"2",
+				"weight":"4 lb.",
+				"table": 1
+			},
+			"86":{
+				"name":"Component pouch",
+				"type":"equipment",
+				"price":"25",
+				"weight":"2 lb.",
+				"description":"A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell&#39;s description).",
+				"table": 2
+			},
+			"87":{
+				"name":"Crowbar",
+				"type":"equipment",
+				"price":"2",
+				"weight":"5 lb.",
+				"table": 1
+			},
+			"88":{
+				"name":"Sprig of mistletoe",
+				"type":"equipment",
+				"price":"1",
+				"weight":"—",
+				"table": 2
+			},
+			"89":{
+				"name":"Totem",
+				"type":"equipment",
+				"price":"1",
+				"weight":"—",
+				"table": 1
+			},
+			"90":{
+				"name":"Wooden staff",
+				"type":"equipment",
+				"price":"5",
+				"weight":"4 lb.",
+				"table": 0
+			},
+			"91":{
+				"name":"Yew wand",
+				"type":"equipment",
+				"price":"10",
+				"weight":"1 lb.",
+				"table": 2
+			},
+			"92":{
+				"name":"Fishing tackle",
+				"type":"equipment",
+				"price":"1",
+				"weight":"4 lb.",
+				"description":"This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting. Healer’s Kit. This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.",
+				"table": 1
+			},
+			"93":{
+				"name":"Flask or tankard",
+				"type":"equipment",
+				"price":0.02,
+				"weight":"1 lb.",
+				"table": 0
+			},
+			"94":{
+				"name":"Grappling hook",
+				"type":"equipment",
+				"price":"2",
+				"weight":"4 lb.",
+				"table": 1
+			},
+			"95":{
+				"name":"Hammer",
+				"type":"equipment",
+				"price":"1",
+				"weight":"3 lb.",
+				"table": 1
+			},
+			"96":{
+				"name":"Hammer, sledge",
+				"type":"equipment",
+				"price":"2",
+				"weight":"10 lb.",
+				"table": 1
+			},
+			"97":{
+				"name":"Healer’s kit",
+				"type":"equipment",
+				"price":"5",
+				"weight":"3 lb.",
+				"description": "Healer’s Kit. This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.",
+				"table": 2
+			},
+			"98":{
+				"name":"Amulet",
+				"type":"equipment",
+				"price":"5",
+				"weight":"1 lb.",
+				"table": 2
+			},
+			"99":{
+				"name":"Emblem",
+				"type":"equipment",
+				"price":"5",
+				"weight":"—",
+				"table": 2
+			},
+			"100":{
+				"name":"Reliquary",
+				"type":"equipment",
+				"price":"5",
+				"weight":"2 lb.",
+				"table": 2
+			},
+			"101":{
+				"name":"Holy water (flask)",
+				"type":"equipment",
+				"price":"25",
+				"weight":"1 lb.",
+				"description":"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage. A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.",
+				"table": 3
+			},
+			"102":{
+				"name":"Hourglass",
+				"type":"equipment",
+				"price":"25",
+				"weight":"1 lb.",
+				"table": 2
+			},
+			"103":{
+				"name":"Hunting trap",
+				"type":"equipment",
+				"price":"5",
+				"weight":"25 lb.",
+				"description":"When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.",
+				"table": 2
+			},
+			"104":{
+				"name":"Ink (1 ounce bottle)",
+				"type":"equipment",
+				"price":"10",
+				"weight":"—",
+				"table": 1
+			},
+			"105":{
+				"name":"Ink pen",
+				"type":"equipment",
+				"price":0.02,
+				"weight":"—",
+				"table": 1
+			},
+			"106":{
+				"name":"Jug or pitcher",
+				"type":"equipment",
+				"price":0.02,
+				"weight":"4 lb.",
+				"table": 0
+			},
+			"107":{
+				"name":"Ladder (10-foot)",
+				"type":"equipment",
+				"price":0.1,
+				"weight":"25 lb.",
+				"table": 1
+			},
+			"108":{
+				"name":"Lamp",
+				"type":"equipment",
+				"price":0.5,
+				"weight":"1 lb.",
+				"description":"A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. Lantern, Bullseye. A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. Lantern, Hooded. A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.",
+				"table": 1
+			},
+			"109":{
+				"name":"Lantern, bullseye",
+				"type":"equipment",
+				"price":"10",
+				"weight":"2 lb.",
+				"table": 2
+			},
+			"110":{
+				"name":"Lantern, hooded",
+				"type":"equipment",
+				"price":"5",
+				"weight":"2 lb.",
+				"table": 2
+			},
+			"111":{
+				"name":"Lock",
+				"type":"equipment",
+				"price":"10",
+				"weight":"1 lb.",
+				"description":"A key is provided with the lock. Without the key, a creature proficient with thieves’ tools can pick this lock with a successful DC 15 Dexterity check. Your GM may decide that better locks are available for higher prices.",
+				"table": 1
+			},
+			"112":{
+				"name":"Magnifying glass",
+				"type":"equipment",
+				"price":"100",
+				"weight":"—",
+				"description":"This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.",
+				"table": 3
+			},
+			"113":{
+				"name":"Manacles",
+				"type":"equipment",
+				"price":"2",
+				"weight":"6 lb.",
+				"description":"These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves’ tools can pick the manacles’ lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.",
+				"table": 2
+			},
+			"114":{
+				"name":"Mess kit",
+				"type":"equipment",
+				"price":0.2,
+				"weight":"1 lb.",
+				"description":"This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.",
+				"table": 0
+			},
+			"115":{
+				"name":"Mirror, steel",
+				"type":"equipment",
+				"price":"5",
+				"weight":"1/2 lb.",
+				"table": 2
+			},
+			"116":{
+				"name":"Oil (flask)",
+				"type":"equipment",
+				"price":0.1,
+				"weight":"1 lb.",
+				"description":"Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.",
+				"table": 1
+			},
+			"117":{
+				"name":"Paper (one sheet)",
+				"type":"equipment",
+				"price":0.2,
+				"weight":"—",
+				"table": 1
+			},
+			"118":{
+				"name":"Parchment (one sheet)",
+				"type":"equipment",
+				"price":0.1,
+				"weight":"—",
+				"table": 1
+			},
+			"119":{
+				"name":"Perfume (vial)",
+				"type":"equipment",
+				"price":"5",
+				"weight":"—",
+				"table": 2
+			},
+			"120":{
+				"name":"Pick, miner’s",
+				"type":"equipment",
+				"price":"2",
+				"weight":"10 lb.",
+				"table": 2
+			},
+			"121":{
+				"name":"Piton",
+				"type":"equipment",
+				"price":0.05,
+				"weight":"1/4 lb.",
+				"table": 1
+			},
+			"122":{
+				"name":"Poison, basic (vial)",
+				"type":"equipment",
+				"price":"100",
+				"weight":"—",
+				"description":"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.",
+				"table": 1
+			},
+			"123":{
+				"name":"Pole (10-foot)",
+				"type":"equipment",
+				"price":0.05,
+				"weight":"7 lb.",
+				"table": 1
+			},
+			"124":{
+				"name":"Pot, iron",
+				"type":"equipment",
+				"price":"2",
+				"weight":"10 lb.",
+				"table": 1
+			},
+			"125":{
+				"name":"Potion of healing 5",
+				"type":"equipment",
+				"price":"0",
+				"weight":"1/2 lb.",
+				"table": 2
+			},
+			"126":{
+				"name":"Pouch",
+				"type":"equipment",
+				"price":0.5,
+				"weight":"1 lb.",
+				"description":"A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch.",
+				"table": 1
+			},
+			"127":{
+				"name":"Quiver",
+				"type":"equipment",
+				"price":"1",
+				"weight":"1 lb.",
+				"description":"A quiver can hold up to 20 arrows.",
+				"table": 1
+			},
+			"128":{
+				"name":"Ram, portable",
+				"type":"equipment",
+				"price":"4",
+				"weight":"35 lb.",
+				"description":"You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.",
+				"table": 2
+			},
+			"129":{
+				"name":"Rations (1 day)",
+				"type":"equipment",
+				"price":0.5,
+				"weight":"2 lb.",
+				"description":"Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.",
+				"table": 0
+			},
+			"130":{
+				"name":"Robes",
+				"type":"equipment",
+				"price":"1",
+				"weight":"4 lb.",
+				"table": 2
+			},
+			"131":{
+				"name":"Rope, hempen (50 feet)",
+				"type":"equipment",
+				"price":"1",
+				"weight":"10 lb.",
+				"table": 0
+			},
+			"132":{
+				"name":"Rope, silk (50 feet)",
+				"type":"equipment",
+				"price":"10",
+				"weight":"5 lb.",
+				"table": 2
+			},
+			"133":{
+				"name":"Sack",
+				"type":"equipment",
+				"price":0.01,
+				"weight":"1/2 lb.",
+				"table": 1
+			},
+			"134":{
+				"name":"Scale, merchant’s",
+				"type":"equipment",
+				"price":"5",
+				"weight":"3 lb.",
+				"description":"A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.",
+				"table": 2
+			},
+			"135":{
+				"name":"Sealing wax",
+				"type":"equipment",
+				"price":0.5,
+				"weight":"—",
+				"table": 2
+			},
+			"136":{
+				"name":"Shovel",
+				"type":"equipment",
+				"price":"2",
+				"weight":"5 lb.",
+				"table": 1
+			},
+			"137":{
+				"name":"Signal whistle",
+				"type":"equipment",
+				"price":0.05,
+				"weight":"—",
+				"table": 2
+			},
+			"138":{
+				"name":"Signet ring",
+				"type":"equipment",
+				"price":"5",
+				"weight":"—",
+				"table": 2
+			},
+			"139":{
+				"name":"Soap",
+				"type":"equipment",
+				"price":0.02,
+				"weight":"—",
+				"table": 1
+			},
+			"140":{
+				"name":"Spellbook",
+				"type":"equipment",
+				"price":"50",
+				"weight":"3 lb.",
+				"description":"Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.",
+				"table": 2
+			},
+			"141":{
+				"name":"Spikes, iron (10)",
+				"type":"equipment",
+				"price":"1",
+				"weight":"5 lb.",
+				"table": 1
+			},
+			"142":{
+				"name":"Spyglass",
+				"type":"equipment",
+				"price":"1,000",
+				"weight":"1 lb.",
+				"description":"Objects viewed through a spyglass are magnified to twice their size.",
+				"table": 3
+			},
+			"143":{
+				"name":"Tent, two-person",
+				"type":"equipment",
+				"price":"2",
+				"weight":"20 lb.",
+				"table": 1
+			},
+			"144":{
+				"name":"Tinderbox",
+				"type":"equipment",
+				"price":0.5,
+				"weight":"1 lb.",
+				"description":"This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute.",
+				"table": 0
+			},
+			"145":{
+				"name":"Torch",
+				"type":"equipment",
+				"price":0.01,
+				"weight":"1 lb.",
+				"description":"A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.",
+				"table": 1
+			},
+			"146":{
+				"name":"Vial",
+				"type":"equipment",
+				"price":"1",
+				"weight":"—",
+				"table": 0
+			},
+			"147":{
+				"name":"Waterskin",
+				"type":"equipment",
+				"price":0.2,
+				"weight":"5 lb. (full)",
+				"table": 0
+			},
+			"148":{
+				"name":"Whetstone",
+				"type":"equipment",
+				"price":0.01,
+				"weight":"1 lb.",
+				"table": 1
+			},
+			"149":{
+				"name":"Alchemist’s supplies",
+				"type":"tool",
+				"price":"50",
+				"weight":"8 lb.",
+				"table": 3
+			},
+			"150":{
+				"name":"Brewer’s supplies",
+				"type":"tool",
+				"price":"20",
+				"weight":"9 lb.",
+				"table": 2
+			},
+			"151":{
+				"name":"Calligrapher's supplies",
+				"type":"tool",
+				"price":"10",
+				"weight":"5 lb.",
+				"table": 2
+			},
+			"152":{
+				"name":"Carpenter’s tools",
+				"type":"tool",
+				"price":"8",
+				"weight":"6 lb.",
+				"table": 2
+			},
+			"153":{
+				"name":"Cartographer’s tools",
+				"type":"tool",
+				"price":"15",
+				"weight":"6 lb.",
+				"table": 3
+			},
+			"154":{
+				"name":"Cobbler’s tools",
+				"type":"tool",
+				"price":"5",
+				"weight":"5 lb.",
+				"table": 2
+			},
+			"155":{
+				"name":"Cook’s utensils",
+				"type":"tool",
+				"price":"1",
+				"weight":"8 lb.",
+				"table": 1
+			},
+			"156":{
+				"name":"Glassblower’s tools",
+				"type":"tool",
+				"price":"30",
+				"weight":"5 lb.",
+				"table": 3
+			},
+			"157":{
+				"name":"Jeweler’s tools",
+				"type":"tool",
+				"price":"25",
+				"weight":"2 lb.",
+				"table": 3
+			},
+			"158":{
+				"name":"Leatherworker’s tools",
+				"type":"tool",
+				"price":"5",
+				"weight":"5 lb.",
+				"table": 1
+			},
+			"159":{
+				"name":"Mason’s tools",
+				"type":"tool",
+				"price":"10",
+				"weight":"8 lb.",
+				"table": 1
+			},
+			"160":{
+				"name":"Painter’s supplies",
+				"type":"tool",
+				"price":"10",
+				"weight":"5 lb.",
+				"table": 2
+			},
+			"161":{
+				"name":"Potter’s tools",
+				"type":"tool",
+				"price":"10",
+				"weight":"3 lb.",
+				"table": 2
+			},
+			"162":{
+				"name":"Smith’s tools",
+				"type":"tool",
+				"price":"20",
+				"weight":"8 lb.",
+				"table": 1
+			},
+			"163":{
+				"name":"Tinker’s tools",
+				"type":"tool",
+				"price":"50",
+				"weight":"10 lb.",
+				"table": 2
+			},
+			"164":{
+				"name":"Weaver’s tools",
+				"type":"tool",
+				"price":"1",
+				"weight":"5 lb.",
+				"table": 1
+			},
+			"165":{
+				"name":"Woodcarver’s tools",
+				"type":"tool",
+				"price":"1",
+				"weight":"5 lb.",
+				"table": 1
+			},
+			"166":{
+				"name":"Disguise kit",
+				"type":"tool",
+				"price":"25",
+				"weight":"3 lb.",
+				"description":"This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.",
+				"table": 2
+			},
+			"167":{
+				"name":"Forgery kit",
+				"type":"tool",
+				"price":"15",
+				"weight":"5 lb.",
+				"description":"This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.",
+				"table": 3
+			},
+			"168":{
+				"name":"Dice set",
+				"type":"tool",
+				"price":0.1,
+				"weight":"—",
+				"table": 1
+			},
+			"169":{
+				"name":"Playing card set",
+				"type":"tool",
+				"price":0.5,
+				"weight":"—",
+				"table": 1
+			},
+			"170":{
+				"name":"Herbalism kit",
+				"type":"tool",
+				"price":"5",
+				"weight":"3 lb.",
+				"description":"This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.",
+				"table": 1
+			},
+			"171":{
+				"name":"Bagpipes",
+				"type":"tool",
+				"price":"30",
+				"weight":"6 lb.",
+				"table": 2
+			},
+			"172":{
+				"name":"Drum",
+				"type":"tool",
+				"price":"6",
+				"weight":"3 lb.",
+				"table": 1
+			},
+			"173":{
+				"name":"Dulcimer",
+				"type":"tool",
+				"price":"25",
+				"weight":"10 lb.",
+				"table": 2
+			},
+			"174":{
+				"name":"Flute",
+				"type":"tool",
+				"price":"2",
+				"weight":"1 lb.",
+				"table": 2
+			},
+			"175":{
+				"name":"Lute",
+				"type":"tool",
+				"price":"35",
+				"weight":"2 lb.",
+				"table": 3
+			},
+			"176":{
+				"name":"Lyre",
+				"type":"tool",
+				"price":"30",
+				"weight":"2 lb.",
+				"table": 2
+			},
+			"177":{
+				"name":"Horn",
+				"type":"tool",
+				"price":"3",
+				"weight":"2 lb.",
+				"table": 3
+			},
+			"178":{
+				"name":"Pan flute",
+				"type":"tool",
+				"price":"12",
+				"weight":"2 lb.",
+				"table": 1
+			},
+			"179":{
+				"name":"Shawm",
+				"type":"tool",
+				"price":"2",
+				"weight":"1 lb.",
+				"table": 1
+			},
+			"180":{
+				"name":"Viol",
+				"type":"tool",
+				"price":"30",
+				"weight":"1 lb.",
+				"table": 2
+			},
+			"181":{
+				"name":"Navigator’s tools",
+				"type":"tool",
+				"price":"25",
+				"weight":"2 lb.",
+				"description":"This set of instruments is used for navigation at sea. Proficiency with navigator&#39;s tools lets you chart a ship&#39;s course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.",
+				"table": 2
+			},
+			"182":{
+				"name":"Poisoner’s kit",
+				"type":"tool",
+				"price":"50",
+				"weight":"2 lb.",
+				"description":"A poisoner’s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.",
+				"table": 3
+			},
+			"183":{
+				"name":"Thieves’ tools",
+				"type":"tool",
+				"price":"25",
+				"weight":"1 lb.",
+				"description":"This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.",
+				"table": 3
+			}
+		}
+}

@@ -1,0 +1,34 @@
+/* Primary colors */
+$primary-color: #FF800C;
+$primary-gradient-color: #B25704;
+
+/* Accent colors */
+$accent-color: #0CCFFF;
+$accent-gradient-color: #0090B2;
+
+@import 'ceryx/ceryx.scss';
+
+/*@import 'base';*/
+@import 'mixins';
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$primaryFont: 'Raleway', sans-serif;
+
+$primaryColour: #eeffcc;
+
+/** {
+	font-family: $primaryFont;
+}*/
+
+html {
+	height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+@import 'header';
+@import 'content';
+@import 'footer';

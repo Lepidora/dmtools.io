@@ -1,0 +1,40 @@
+extends ../page
+
+block scripts
+  script(src='/scripts/common.js')
+  script(src='/scripts/shop.js')
+
+block content
+  div.column
+    div.content
+      h1= title
+      
+      h2 Options
+      div
+        form(onsubmit='return generateShop()')
+          h3 Shop Type
+          select(name='type', id='type')
+            for type in types
+              option(value=type.value)= type.name
+          
+          h3 Exoticness (1-100) The maximum rarity of the items
+          
+          input(type=number, name='exoticness', id='exoticness', placeholder='Leave blank for random')
+          
+          //-
+            h3 Variety (1-100) The variety of the items
+          
+            input(type=number, name='variety', id='variety', placeholder='Leave blank for random')
+          
+          h3 Size (1 - 200) The total number of items
+          
+          input(type=number, name='size', id='size', placeholder='Leave blank for random')
+          
+          h3 Seed - The random seed used to generate the shop
+          
+          input(type=number, name='seed', id='seed', placeholder='Leave blank for random', value=new Date().getTime())
+          
+          button Generate
+      h2 Results
+      div(id='results', class='cards')
+        
